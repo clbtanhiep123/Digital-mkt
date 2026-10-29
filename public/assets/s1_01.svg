@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" fill="none">
+  <!-- Circular outer decorative ring -->
+  <circle cx="250" cy="250" r="215" stroke="#E2DACB" stroke-width="2.5" opacity="0.85"/>
+  <circle cx="250" cy="250" r="206" stroke="#ECE5D8" stroke-width="1.5" opacity="0.9"/>
+  
+  <!-- Subtle organic dots around ring -->
+  <circle cx="95" cy="180" r="3" fill="#D4CABA" opacity="0.8"/>
+  <circle cx="108" cy="140" r="2.5" fill="#D4CABA" opacity="0.7"/>
+  <circle cx="140" cy="98" r="3" fill="#D4CABA" opacity="0.8"/>
+  <circle cx="395" cy="165" r="3" fill="#D4CABA" opacity="0.8"/>
+  <circle cx="410" cy="205" r="2.5" fill="#D4CABA" opacity="0.7"/>
+  <circle cx="418" cy="365" r="3" fill="#D4CABA" opacity="0.8"/>
+  <circle cx="392" cy="405" r="2.5" fill="#D4CABA" opacity="0.7"/>
+  <circle cx="100" cy="335" r="3" fill="#D4CABA" opacity="0.8"/>
+  <circle cx="112" cy="375" r="2.5" fill="#D4CABA" opacity="0.7"/>
+
+  <!-- Left Olive Botanical Branch -->
+  <g stroke="#778B75" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M210 250 C185 240, 160 200, 175 145"/>
+    <!-- Leaves -->
+    <path d="M175 145 C165 160, 165 175, 178 180 C188 170, 185 155, 175 145 Z" fill="#F4F8F3"/>
+    <path d="M165 175 C145 180, 140 195, 155 205 C168 200, 170 185, 165 175 Z" fill="#F4F8F3"/>
+    <path d="M172 208 C155 218, 150 235, 168 242 C178 232, 178 218, 172 208 Z" fill="#F4F8F3"/>
+    <path d="M185 230 C175 245, 178 260, 195 258 C198 245, 192 235, 185 230 Z" fill="#F4F8F3"/>
+    <path d="M192 185 C190 165, 198 152, 210 162 C210 175, 202 185, 192 185 Z" fill="#F4F8F3"/>
+  </g>
+  <circle cx="160" cy="208" r="2" fill="#778B75"/>
+
+  <!-- Right Terracotta Branch -->
+  <g stroke="#B8734C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M285 260 C305 250, 325 240, 345 230"/>
+    <!-- Leaves -->
+    <path d="M305 250 C318 238, 332 242, 330 255 C318 260, 310 255, 305 250 Z" fill="#FDF6F0"/>
+    <path d="M328 240 C345 225, 360 230, 355 245 C340 252, 332 245, 328 240 Z" fill="#FDF6F0"/>
+    <path d="M332 258 C345 262, 348 275, 338 282 C328 280, 325 268, 332 258 Z" fill="#FDF6F0"/>
+  </g>
+  <circle cx="320" cy="200" r="2.5" fill="#B8734C"/>
+
+  <!-- Top Right Scent / Wind Swirls -->
+  <g stroke-width="2" stroke-linecap="round" fill="none">
+    <path d="M285 160 C310 152, 335 158, 342 148 C348 140, 342 135, 330 138" stroke="#778B75"/>
+    <path d="M275 175 C305 168, 330 178, 345 165" stroke="#B8734C"/>
+    <path d="M290 188 C310 182, 325 188, 332 182" stroke="#778B75"/>
+  </g>
+
+  <!-- Candle Glass Vessel -->
+  <g>
+    <!-- Glass body with soft rounded bottom -->
+    <rect x="210" y="175" width="80" height="92" rx="10" fill="#FFFCEB" stroke="#687869" stroke-width="2.5"/>
+    
+    <!-- Pastel yellow candle wax -->
+    <rect x="214" y="195" width="72" height="68" rx="6" fill="#FCE9A6"/>
+    
+    <!-- Left highlight on glass -->
+    <path d="M220 208 L220 250" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+    
+    <!-- Wick -->
+    <line x1="250" y1="184" x2="250" y2="196" stroke="#4A3728" stroke-width="2.5" stroke-linecap="round"/>
+    
+    <!-- Flame in warm pastel peach-amber -->
+    <path d="M250 148 C250 148, 262 165, 262 176 C262 183.5, 256.5 189, 250 189 C243.5 189, 238 183.5, 238 176 C238 165, 250 148, 250 148 Z" fill="#F8BC77"/>
+    <!-- Inner bright flame -->
+    <path d="M250 162 C250 162, 256 172, 256 178 C256 182, 253 185, 250 185 C247 185, 244 182, 244 178 C244 172, 250 162, 250 162 Z" fill="#FFF8E0"/>
+  </g>
+
+  <!-- Brand Typography: TĨNH -->
+  <!-- Handcrafted organic letterforms matching the logo image in #334833 -->
+  <g fill="#334833">
+    <!-- T -->
+    <path d="M148 300 C145 304, 145 310, 150 312 C156 312, 172 310, 178 310 L178 350 C178 355, 175 358, 168 360 C168 362, 192 362, 192 360 C185 358, 182 355, 182 350 L182 310 C188 310, 204 312, 210 312 C215 310, 215 304, 212 300 C206 300, 154 300, 148 300 Z"/>
+    
+    <!-- Ĩ with organic tilde -->
+    <g>
+      <!-- Tilde accent -->
+      <path d="M225 288 C228 284, 235 284, 242 288 C248 292, 255 292, 260 288 C261 285, 256 282, 250 282 C242 282, 236 286, 230 284 C225 282, 222 285, 225 288 Z"/>
+      <!-- Stem of I -->
+      <path d="M232 302 C228 304, 228 308, 234 310 C240 310, 242 312, 242 318 L242 350 C242 355, 238 358, 232 360 C232 362, 258 362, 258 360 C252 358, 248 355, 248 350 L248 318 C248 312, 250 310, 256 310 C262 308, 262 304, 258 302 Z"/>
+    </g>
+
+    <!-- N -->
+    <path d="M280 302 C275 304, 275 308, 280 310 C285 310, 287 312, 287 318 L287 350 C287 355, 284 358, 278 360 C278 362, 302 362, 302 360 C296 358, 293 355, 293 350 L293 325 L328 360 C332 363, 338 362, 338 358 L338 318 C338 312, 340 310, 345 310 C350 308, 350 304, 346 302 C340 302, 328 302, 325 302 C320 304, 320 308, 325 310 C330 310, 332 312, 332 318 L332 342 L298 302 C295 300, 288 300, 280 302 Z"/>
+
+    <!-- H -->
+    <path d="M362 302 C356 304, 356 308, 362 310 C368 310, 370 312, 370 318 L370 330 L395 330 L395 318 C395 312, 397 310, 403 310 C409 308, 409 304, 403 302 C397 302, 385 302, 382 302 C376 304, 376 308, 382 310 C388 310, 390 312, 390 318 L390 334 L370 334 L370 350 C370 355, 368 358, 362 360 C362 362, 386 362, 386 360 C380 358, 376 355, 376 350 L376 338 L390 338 L390 350 C390 355, 388 358, 382 360 C382 362, 406 362, 406 360 C400 358, 396 355, 396 350 L396 318 C396 312, 398 310, 404 310 C410 308, 410 304, 404 302 Z"/>
+  </g>
+
+  <!-- Tagline: be still, be within -->
+  <text x="250" y="388" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="19" font-weight="500" letter-spacing="0.22em" fill="#524E48" text-anchor="middle">
+    be still, be within
+  </text>
+</svg>

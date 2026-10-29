@@ -1,0 +1,275 @@
+{
+  "brand": {
+    "name": "TĨNH",
+    "tagline": "be still, be within",
+    "slogan": "Thắp nến, chạm bình yên",
+    "logo": "./assets/s1_01.svg",
+    "logoLight": "./assets/s6_01.svg"
+  },
+  "navigation": [
+    { "id": "hero", "index": "01", "label": "Tĩnh" },
+    { "id": "target", "index": "02", "label": "Đối Tượng" },
+    { "id": "usp", "index": "03", "label": "Đột Phá" },
+    { "id": "products", "index": "04", "label": "Danh Mục" },
+    { "id": "action", "index": "05", "label": "Đặt Hàng" },
+    { "id": "contact", "index": "06", "label": "Đội Ngũ" }
+  ],
+  "designSpecifications": {
+    "title": "THÔNG SỐ THIẾT KẾ",
+    "theme": "White & Pastel Yellow Minimalist Aesthetic",
+    "ratio": "60-30-10",
+    "colors": {
+      "bgDeep": "#FAF8F5",
+      "surfaceCard": "#FFFFFF",
+      "surfaceCardHover": "#FDFBF4",
+      "accentYellow": "#ECC850",
+      "accentPastelYellow": "#F7E8A4",
+      "accentWarmGold": "#D4A346",
+      "textPrimary": "#23211E",
+      "textMuted": "#78716C",
+      "borderHairline": "rgba(224, 186, 100, 0.25)"
+    },
+    "fonts": {
+      "display": "Plus Jakarta Sans",
+      "body": "Inter",
+      "mono": "JetBrains Mono"
+    }
+  },
+  "hero": {
+    "title": "TĨNH",
+    "subtitle": "Thắp nến, chạm bình yên.",
+    "body": "Giữa nhịp sống bận rộn, hãy dành cho bản thân một khoảng lặng trọn vẹn cùng nến thơm TĨNH. Ánh nến dịu nhẹ kết hợp hương thơm tinh tế giúp vỗ về tâm trí, mang lại sự ấm cúng và thư thái cho không gian sống của bạn.",
+    "ctaText": "MUA NẾN THƠM NGAY",
+    "ctaAction": "#products",
+    "image": "./assets/s1_02.jpg",
+    "bgGlow": "./assets/s1_03.png",
+    "stats": [
+      { "label": "Sáp Đậu Nành", "value": "100%", "note": "Hữu cơ không độc tố" },
+      { "label": "Bấc Gỗ Tự Nhiên", "value": "100%", "note": "Tiếng lách tách êm dịu" },
+      { "label": "Hương Liệu", "value": "100%", "note": "Tinh dầu nguyên chất" }
+    ]
+  },
+  "targetAudience": {
+    "title": "Nến thơm TĨNH dành cho ai?",
+    "subtitle": "4 Thẻ nội dung (Xếp ngang 4 cột):",
+    "items": [
+      {
+        "id": "student",
+        "index": "01",
+        "icon": "GraduationCap",
+        "category": "HỌC TẬP & NGHIÊN CỨU",
+        "title": "Sinh viên",
+        "desc": "Đọc sách, học tập tập trung & thư giãn phòng trọ.",
+        "image": "./assets/s2_01.jpg",
+        "accent": "#00F2FE",
+        "tag": "Focus Zone"
+      },
+      {
+        "id": "office",
+        "index": "02",
+        "icon": "Briefcase",
+        "category": "CÂN BẰNG CÔNG VIỆC",
+        "title": "Dân văn phòng",
+        "desc": "Giải tỏa căng thẳng, tái tạo năng lượng sau ngày dài.",
+        "image": "./assets/s2_02.jpg",
+        "accent": "#FF9E2C",
+        "tag": "Decompress"
+      },
+      {
+        "id": "minimalist",
+        "index": "03",
+        "icon": "Leaf",
+        "category": "KHÔNG GIAN SỐNG",
+        "title": "Lối sống tối giản",
+        "desc": "Trang trí góc làm việc, phòng ngủ thêm ấm cúng.",
+        "image": "./assets/s2_03.jpg",
+        "accent": "#00F2FE",
+        "tag": "Wabi-Sabi"
+      },
+      {
+        "id": "gift",
+        "index": "04",
+        "icon": "Gift",
+        "category": "QUÀ TẶNG CẢM XÚC",
+        "title": "Người tìm quà tặng",
+        "desc": "Món quà tinh tế gửi gắm sự quan tâm cho người thương.",
+        "image": "./assets/s2_04.jpg",
+        "accent": "#FF9E2C",
+        "tag": "Thoughtful"
+      }
+    ]
+  },
+  "usp": {
+    "title": "3 ĐIỂM NỔI BẬT",
+    "subtitle": "(Chia làm 3 cột ngang, mỗi cột đi kèm 1 biểu tượng/icon đơn giản)",
+    "items": [
+      {
+        "id": "soy-wax",
+        "index": "01",
+        "icon": "./assets/s3_01.svg",
+        "title": "100% Sáp đậu nành & Tinh dầu thiên nhiên",
+        "desc": "Sáp đậu nành lành tính kết hợp bấc gỗ kêu lách tách. Hương thơm lan tỏa dịu nhẹ, an toàn tuyệt đối và không gây đau đầu khi đốt trong phòng kín.",
+        "image": "./assets/s3_02.jpg",
+        "badge": "Eco & Natural",
+        "techSpecs": [
+          { "k": "Nhiệt độ nóng chảy", "v": "48°C - 52°C" },
+          { "k": "Khói đen & Muội than", "v": "0.0%" },
+          { "k": "Thời lượng khuếch tán", "v": "+40% so với paraffin" }
+        ]
+      },
+      {
+        "id": "secret-message",
+        "index": "02",
+        "icon": "./assets/s3_03.svg",
+        "title": "Thông điệp ẩn độc bản (Secret Message)",
+        "desc": "Dòng chữ thông điệp bí mật ẩn dưới lớp sáp. Khi ngọn nến tan chảy, lời chúc yêu thương bạn gửi gắm sẽ từ từ hiện ra, mang lại bất ngờ trọn vẹn.",
+        "image": "./assets/s3_04.jpg",
+        "badge": "Signature Tech",
+        "interactiveHint": "Nhấn để mô phỏng sáp tan chảy và xem thông điệp ẩn",
+        "techSpecs": [
+          { "k": "Chất liệu thông điệp", "v": "Gốm nung nano chống cháy" },
+          { "k": "Thời gian phát lộ", "v": "15 - 20 phút sau khi thắp" },
+          { "k": "Độ dài tùy biến", "v": "Tối đa 35 ký tự" }
+        ]
+      },
+      {
+        "id": "gift-service",
+        "index": "03",
+        "icon": "./assets/s3_05.svg",
+        "title": "Dịch vụ quà tặng trọn gói",
+        "desc": "Tư vấn chọn mùi hương theo tính cách, miễn phí hộp quà nghệ thuật và thiệp viết tay theo yêu cầu.",
+        "image": "./assets/s3_06.jpg",
+        "badge": "Bespoke Packaging",
+        "techSpecs": [
+          { "k": "Chất liệu hộp", "v": "Giấy mỹ thuật Kraft 350gsm" },
+          { "k": "Thiệp đính kèm", "v": "Viết tay nắn nót theo yêu cầu" },
+          { "k": "Thời gian chuẩn bị", "v": "Đóng gói kỹ trong 2 giờ" }
+        ]
+      }
+    ]
+  },
+  "products": {
+    "title": "DANH MỤC & BẢNG GIÁ SẢN PHẨM",
+    "subtitle": "(Tạo 3 ô thẻ sản phẩm, có ảnh minh họa hũ nến)",
+    "items": [
+      {
+        "id": "mini-100g",
+        "name": "Nến TĨNH Mini",
+        "weight": "100g",
+        "fragrance": "Hương Oải Hương & Cam Bergamot (Dễ ngủ)",
+        "price": 180000,
+        "priceFormatted": "180.000 VNĐ",
+        "burnTime": "25 - 30 giờ",
+        "wick": "Bấc cotton hữu cơ",
+        "ctaText": "Đặt mua",
+        "image": "./assets/s4_01.jpg",
+        "isFeatured": false,
+        "tag": "Khởi đầu thanh khiết"
+      },
+      {
+        "id": "standard-200g",
+        "name": "Nến TĨNH Standard",
+        "weight": "200g - Bấc gỗ",
+        "fragrance": "Hương Gỗ Thông & Đàn Hương (Ấm áp)",
+        "price": 320000,
+        "priceFormatted": "320.000 VNĐ",
+        "burnTime": "50 - 55 giờ",
+        "wick": "Bấc gỗ lách tách",
+        "ctaText": "Đặt mua",
+        "image": "./assets/s4_02.jpg",
+        "isFeatured": true,
+        "tag": "Bán chạy nhất"
+      },
+      {
+        "id": "giftset-peace",
+        "name": "Giftset \"Chạm Bình Yên\"",
+        "weight": "Full Set",
+        "fragrance": "1 Nến 200g + Bật lửa khè + Thiệp + Hộp quà cao cấp",
+        "price": 450000,
+        "priceFormatted": "450.000 VNĐ",
+        "burnTime": "50+ giờ & phụ kiện",
+        "wick": "Bấc gỗ + Khò đồng",
+        "ctaText": "Đặt mua",
+        "image": "./assets/s4_03.jpg",
+        "isFeatured": false,
+        "tag": "Món quà trọn vẹn"
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Cho phép bản thân được nghỉ ngơi.",
+    "body": "Một ánh nến nhỏ, một khoảng lặng riêng. Hãy để TĨNH cùng bạn tạo nên những khoảnh khắc bình yên mỗi ngày.",
+    "ctaText": "MUA NẾN THƠM TĨNH NGAY",
+    "bgImage": "./assets/s5_01.jpg"
+  },
+  "footer": {
+    "title": "THÔNG TIN LIÊN HỆ & ĐỘI NGŨ THỰC HIỆN",
+    "subtitle": "DANH SÁCH THÀNH VIÊN THỰC HIỆN (NHÓM 05):",
+    "brandInfo": {
+      "brandName": "Nến thơm TĨNH",
+      "hotline": "0912 345 678",
+      "email": "contact.tinhcandle@gmail.com",
+      "address": "123 Nguyễn Văn Cừ, Q.5, TP.HCM",
+      "socials": [
+        { "name": "Facebook", "handle": "@tinh.nenthom", "url": "https://facebook.com" },
+        { "name": "Instagram", "handle": "@tinh.nenthom", "url": "https://instagram.com" }
+      ],
+      "logo": "./assets/s6_01.svg"
+    },
+    "teamMembers": [
+      {
+        "name": "Hồ Tấn Hiệp",
+        "mssv": "225042546",
+        "role": "Trưởng nhóm - Quản lý dự án & Phát triển Web",
+        "avatar": "./assets/s6_02.jpg"
+      },
+      {
+        "name": "Tô Thanh Thuý",
+        "mssv": "215085571",
+        "role": "Nội dung & Copywriting",
+        "avatar": "./assets/s6_03.jpg"
+      },
+      {
+        "name": "Nguyễn Thế Vỹ",
+        "mssv": "195082009",
+        "role": "Thiết kế Giao diện UI/UX",
+        "avatar": "./assets/s6_04.jpg"
+      },
+      {
+        "name": "Trần Bùi Tuấn Đạt",
+        "mssv": "195110922",
+        "role": "Nghiên cứu Thị trường & Khách hàng",
+        "avatar": "./assets/s6_02.jpg"
+      },
+      {
+        "name": "Trần Hiển Ngôn",
+        "mssv": "225015454",
+        "role": "Hình ảnh & Thiết kế Nhận diện",
+        "avatar": "./assets/s6_03.jpg"
+      },
+      {
+        "name": "Phạm Nguyễn Nhật Tuân",
+        "mssv": "225220909",
+        "role": "Kiểm thử & Tối ưu hóa Trải nghiệm",
+        "avatar": "./assets/s6_04.jpg"
+      }
+    ],
+    "copyright": "© 2026 Nến Thơm TĨNH.",
+    "govRegistration": {
+      "title": "Đã Đăng Ký Bộ Công Thương",
+      "logo": "./assets/bocongthuong.png",
+      "url": "http://online.gov.vn"
+    },
+    "partnersTitle": "Đơn vị liên kết",
+    "partners": [
+      {
+        "name": "MoMo",
+        "logo": "./assets/partner_momo.png"
+      },
+      {
+        "name": "VNPAY",
+        "logo": "./assets/partner_vnpay.png"
+      }
+    ]
+  }
+}

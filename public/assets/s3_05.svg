@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <circle cx="32" cy="32" r="30" fill="#FFFCEB" stroke="rgba(218, 185, 114, 0.4)" stroke-width="1.5"/>
+  <!-- Gift box body in white and pastel yellow -->
+  <rect x="20" y="28" width="24" height="20" rx="3" fill="#FFFFFF" stroke="#D4A346" stroke-width="2"/>
+  <rect x="18" y="22" width="28" height="7" rx="2" fill="#FDF4D4" stroke="#D4A346" stroke-width="2"/>
+  <!-- Ribbon in pastel gold -->
+  <line x1="32" y1="22" x2="32" y2="48" stroke="#ECC850" stroke-width="2.5"/>
+  <path d="M26 17C28 17 31 19 32 22C33 19 36 17 38 17C40 17 41 19 40 21C39 23 35 22 32 22C29 22 25 23 24 21C23 19 24 17 26 17Z" fill="#ECC850"/>
+</svg>

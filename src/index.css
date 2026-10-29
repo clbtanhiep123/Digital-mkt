@@ -1,0 +1,95 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+:root {
+  --bg-deep: #FAF8F5;
+  --surface-card: #FFFFFF;
+  --surface-card-hover: #FCF9F1;
+  --accent-yellow: #ECC850;
+  --accent-pastel: #FDF4D4;
+  --accent-gold: #D4A346;
+  --text-primary: #23211E;
+  --text-muted: #78716C;
+  --border-hairline: rgba(218, 185, 114, 0.3);
+  --glass-header: rgba(250, 248, 245, 0.88);
+  --radius-card: 16px;
+  --font-display: 'Plus Jakarta Sans', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+@layer base {
+  * {
+    border-color: rgba(218, 185, 114, 0.25);
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    background-color: #FAF8F5;
+    color: #23211E;
+    font-family: 'Inter', sans-serif;
+  }
+
+  body {
+    background-color: #FAF8F5;
+    color: #23211E;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  .font-mono, [data-mono="true"] {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Ambient pastel glows */
+.ambient-pastel-glow {
+  background: radial-gradient(circle at 50% 0%, rgba(244, 211, 108, 0.18) 0%, transparent 65%);
+}
+
+.secondary-pastel-glow {
+  background: radial-gradient(circle at 50% 50%, rgba(253, 244, 212, 0.6) 0%, transparent 70%);
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(12px) saturate(140%);
+  border: 1px solid rgba(218, 185, 114, 0.28);
+}
+
+.glass-header {
+  background: rgba(250, 248, 245, 0.88);
+  backdrop-filter: blur(16px) saturate(150%);
+  border-bottom: 1px solid rgba(218, 185, 114, 0.25);
+}
+
+.active-led-dot {
+  box-shadow: 0 0 8px #ECC850, 0 0 16px rgba(244, 211, 108, 0.8);
+}
+
+.active-amber-dot {
+  box-shadow: 0 0 8px #D4A346, 0 0 16px rgba(212, 163, 70, 0.6);
+}
+
+/* Custom scrollbar for white & pastel theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E8DECA;
+  border-radius: 9999px;
+  border: 1px solid rgba(218, 185, 114, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ECC850;
+}

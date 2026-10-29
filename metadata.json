@@ -1,0 +1,6 @@
+{
+  "name": "Nến Thơm TĨNH - Thắp Nến, Chạm Bình Yên",
+  "description": "Landing page thương hiệu nến thơm TĨNH phong cách Trắng & Vàng Pastel thanh lịch, tinh tế với GSAP ScrollTrigger và giao diện đặt hàng nhanh.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
